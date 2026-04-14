@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>❤️</text></svg>">
+    <title> Te amo AMAYA </title>
+</head>
+<body>
+
+<div id="loader" class="loader">
+    <div class="heart-loader">❤️</div>
+</div>
+<div class="hearts">
+    <div class="heart">❤️</div>
+    <div class="heart">💖</div>
+    <div class="heart">💕</div>
+    <div class="heart">💗</div>
+    <div class="heart">💓</div>
+    <div class="heart">💞</div>
+    <div class="heart">💘</div>
+    <div class="heart">💝</div>
+    <div class="heart">💟</div>
+</div>
+
+<header>
+<h1 id="Barrarriba">PARA TI</h1> 
+    <nav>
+    <a class="barraarriba" href="#Inicio">Inicio</a>
+    <a class="barraarriba" href="#Fotos"> Fotos</a>
+    <a class="barraarriba" href="#Listas"> Listas</a>
+    </nav>
+    <div class="theme-toggle">
+        <button id="themeToggle" class="toggle-btn">
+            <span class="toggle-icon">🌙</span>
+            <span class="toggle-icon sun">☀️</span>
+            <span class="toggle-slider"></span>
+        </button>
+    </div>
+
+</header>
+<section id="Inicio" class="fade-section"> 
+    <h1>¡Hola, de nuevo!</h1>
+    <p id="p"> <strong>Bienvenida a tu página, Amaya.</strong></p>
+</section>
+<section class="tarjetas fade-section">
+    <div class="tarjeta">CON</div>
+    <div class="tarjeta">MUCHO</div>
+    <div class="tarjeta">AMOR</div>
+</section>
+<p><div class="p"> Eres la mejor novia del mundo </div></p>
+<br>
+<section id="Fotos" class="fade-section">
+<div class="slideshow-container">
+    <img id="slideshow" src="imagenes/Foto 1.jpeg" alt="Foto del amor de mi vida">
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+</section>
+<section id="Listas" class="fade-section">
+    <ul class="ul">
+        <li class="li"><strong>Lista de cosas que amo de ti</strong>
+            <ul class="ul">
+                <li class="li"> Tu sonrisa </li>
+                <li class="li"> Tu forma de amar </li>
+                <li class="li"> Tu paciencia </li>
+                <li class="li"> tus ojos </li>
+                <li class="li"> tu cabello </li>
+                <li class="li"> tus detalles </li>
+                <li class="li"> tu sentido del humor </li>
+                <li class="li"> tu personalidad </li>
+                <li class="li"> como me tratas </li>
+                <li class="li"> tu forma de pensar </li>
+            </ul>
+            </li>
+        <li class="li"> <strong>Lista de cosas que quiero hacer contigo</strong>
+            <ul class="ul">
+                <li class="li"> pijamada </li> 
+                <li class="li"> intercambiar outfits </li>
+                <li class="li"> comer </li>
+                <li class="li"> ir a la playa </li>
+                <li class="li"> una pijamada </li>
+                <li class="li"> ir al malecón </li>
+                <li class="li"> escuchar música juntos </li>
+                <li class="li"> tomarnos fotos juntos </li>
+                <li class="li"> ir a cenar </li>
+                <li class="li"> jugar videojuegos </li>
+            </ul>
+        </li>
+    </ul>
+
+<div class="videos">
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=z0wT6CrEGYg" title="Cancion que me pediste" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=KqI0AmkaB1I" title="Cancion que me pediste subtitulada" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<p class="p"><strong>Te amo mucho tilin, muakiti</strong></p>
+<script src="script.js"></script>
+
+<section class="contact fade-section">
+    <h2>Envíame un mensaje 💌</h2>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Tu nombre" required>
+        <input type="email" id="email" placeholder="Tu email" required>
+        <textarea id="message" placeholder="Tu mensaje..." required></textarea>
+        <button type="submit">Enviar mensaje ❤️</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<div class="love-counter">
+    <h3>Contador de Amor 💕</h3>
+    <div class="counter-display">
+        <span id="loveCount">0</span>
+        <p>veces que te amo hoy</p>
+    </div>
+    <button id="loveButton">¡Te amo! ❤️</button>
+</div>
+
+<section class="social-links fade-section">
+    <h3>Sígueme en redes 📱</h3>
+    <div class="social-buttons">
+        <a href="https://www.instagram.com/ugh._sp/" target="_blank" class="social-btn instagram">📷 Instagram</a>
+    </div>
+</section>
+
+<footer>
+    <p> Página creada por: Gael, para Amaya </p>
+</footer>
+</body>
+</html>
